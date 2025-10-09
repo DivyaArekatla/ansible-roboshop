@@ -7,10 +7,10 @@
     zone_id: "Z0647661102SM8HOESOQ"
     domain_name: "daws86s.com"
     instances:
-    - mongodb
-    - redis
-    - mysql
-    - rabbitmq
+    - catalogue
+    - user
+    - cart
+
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
